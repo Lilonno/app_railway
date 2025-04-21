@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Présentation - Lilou Onno{% endblock %}
+
+{% block content %}
+<div class="presentation">
+    <div class="texte">
+        <h1>Bonjour, je suis Lilou !</h1>
+        <p>Actuellement en stage en tant que Data Analyst, je suis passionnée par l'analyse de données et la création d'outils interactifs permettant de transformer des données brutes en informations utiles et compréhensibles. 📊</p>
+        <p>Ce portfolio présente mes projets réalisés durant mes études en Master d'économétrie et statistiques à l'IAE de Nantes, ainsi que mes travaux de visualiation en Power BI, Python Dash.</p>
+        <p>Je suis à la recherche d'opportunités dans le domaine de l’analyse de données / data science, notamment en tant que Data Analyst, un secteur dans lequel je suis particulièrement motivée à m'investir et à évoluer.</p>
+    </div>
+    <div class="photo">
+        <img src="{{ url_for('static', filename='moi.png') }}" alt="Photo de Lilou">
+    </div>
+</div>
+{% endblock %}
+

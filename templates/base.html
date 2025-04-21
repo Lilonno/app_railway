@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mon Portfolio{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('accueil') }}">Présentation</a> |
+        <a href="{{ url_for('projets') }}">Projets</a> |
+        <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>    
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

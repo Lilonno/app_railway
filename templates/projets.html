@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block title %}Mes projets{% endblock %}
+
+{% block content %}
+<h1 class="titre-projets">Mes projets</h1>
+
+<div class="filtre-categories">
+    <button class="filtre-btn" data-categorie="all">🌟 Tous</button>
+    <button class="filtre-btn" data-categorie="visualisation">📊 Visualisation</button>
+    <button class="filtre-btn" data-categorie="economie">🌍 Économie</button>
+    <button class="filtre-btn" data-categorie="finance">💶 Finance</button>
+    <button class="filtre-btn" data-categorie="Sociologie">🧑‍🤝‍🧑 Sociologie</button>
+    <button class="filtre-btn" data-categorie="modelisation">📈 Modélisation</button> 
+    <button class="filtre-btn" data-categorie="Cartographie">🗺️ Cartographie</button> 
+</div>
+
+<div class="grid" id="projets-grid">
+    {% for projet in projets %}
+    <div class="card projet" data-categorie="{{ projet.categorie }}">
+        <h2>{{ projet.titre }}</h2>
+        <p>{{ projet.description }}</p>
+        {% if projet.fichier %}
+            <a class="btn" href="{{ url_for('static', filename=projet.fichier) }}" target="_blank">📄 Voir le Dossier</a>
+        {% endif %}
+        {% if projet.lien %}
+            <a class="btn" href="{{ projet.lien }}" target="_blank">🌐 Voir l'application</a>
+        {% endif %}
+        {% if projet.diaporama %}
+            <a class="btn" href="{{ url_for('static', filename=projet.diaporama) }}" target="_blank">📊 Voir le Diaporama</a>
+        {% endif %}
+        {% if projet.synthese %}
+            <a class="btn" href="{{ url_for('static', filename=projet.synthese) }}" target="_blank">📑Voir la note de synthese</a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    const boutons = document.querySelectorAll(".filtre-btn");
+    const projets = document.querySelectorAll(".projet");
+
+    boutons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const cat = btn.getAttribute("data-categorie");
+            projets.forEach(projet => {
+                if (cat === "all" || projet.getAttribute("data-categorie") === cat) {
+                    projet.style.display = "block";
+                } else {
+                    projet.style.display = "none";
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .filtre-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .filtre-btn {
+        font-size: 18px;  /* Taille du texte */
+        padding: 15px 25px;  /* Taille des boutons */
+        margin: 10px;  /* Espacement entre les boutons */
+        background-color: #000000;  /* Couleur de fond */
+        color: white;  /* Couleur du texte */
+        border: none;  /* Enlever les bordures */
+        border-radius: 8px;  /* Coins arrondis */
+        cursor: pointer;
+        transition: all 0.3s ease;  /* Transition lors du survol */
+    }
+
+    .filtre-btn:hover {
+        background-color: #A9A9A9;  /* Couleur au survol */
+        transform: scale(1.1);  /* Agrandissement au survol */
+    }
+
+    .filtre-btn:focus {
+        outline: none;  /* Enlever le contour au focus */
+    }
+</style>
+
+{% endblock %}

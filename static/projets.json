@@ -1,0 +1,137 @@
+[
+    {
+      "titre": "Analyse du taux de pauvreté des femmes dans 65 pays en 2021.",
+      "description": "L’objectif premier de ce dossier est de comprendre les déterminants qui influent sur la pauvreté des femmes dans le monde en 2020.",
+      "categorie": "economie",
+      "fichier": "Dossier_analyse_donne.pdf",
+      "diaporama": "Diapo_Analyse_donnee.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "L'Impact du sport sur la santé",
+      "description": "L'étude vise à analyser les facteurs qui influent sur la participation à des activités sportives.",
+      "categorie": "economie",
+      "fichier": "dossier_sport_sante.pdf",
+      "diaporama": "Diapo_sport_sante.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Analyse des déterminants de l’Innovation à l'échelle mondiale en 2018",
+      "description": "Econométrie de l'innovation",
+      "categorie": "economie",
+      "fichier": "Dossier_econ.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Site Web - Concours Drim game",
+      "description": "Analyser les relations entre la défaillance d’entreprises de taille différente au sein d’un même secteur industriel et déterminer dans quelle mesure ces relations sont dépendantes ou non de la conjoncture et du niveau d’émission de GES des différents secteurs.",
+      "categorie": "finance",
+      "lien": "https://lilonno.github.io/drim_game/"
+      },
+    {
+      "titre": "Modélisation et analyse de la croissance du PIB du Canada entre 1981 et 2024",
+      "description": "Régressions pénalisées et sélection de variables",
+      "categorie": "finance",
+      "fichier": "Dossier_reg.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Evaluation des actifs",
+      "description": "Analyse des performances financières et optimisation de portefeuille : Cas des neuf fonds d'investissement",
+      "categorie": "finance",
+      "fichier": "dossier_evaluation_actif.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "L’indice des prix à la consommation de janvier 1990 à décembre 2022",
+      "description": "Technique de prévision et conjoncture",
+      "categorie": "finance",
+      "fichier": "Dossier_tech_conjoncture.pdf",
+      "lien_code": null
+    }, 
+    {
+      "titre": "Importations de pétrole et de produits pétroliers aux USA",
+      "description": "Série temporelle multivariés ",
+      "categorie": "finance",
+      "fichier": "Dossier_serie_multi.pdf",
+      "diaporama": "Diapo_serie_multi.pdf",
+      "lien_code": null
+    }, 
+    {
+      "titre": "Prévision de la volatilité sur 2023 pour l’indice ENGI",
+      "description": "Econométrie financière avancée  ",
+      "categorie": "finance",
+      "fichier": "Dossier_financ.pdf",
+      "lien_code": null
+    },  
+    {
+      "titre": "La croissance démographique en France de 1960 à 2009",
+      "description": "Série temporelle ",
+      "categorie": "finance",
+      "fichier": "Dossier_serie_temp.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Mémoire de recherche",
+      "description": "L'objectif de cette étude est d'analyser comment les caractéristiques individuelles influencent la survie des détenus et leurs expériences au sein du bagne.",
+      "categorie": "Sociologie",
+      "fichier": "Dossier_memoire.pdf",
+      "synthese": "Note_synthese.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Mini mémoire de recherche",
+      "categorie": "Sociologie",
+      "fichier": "Dossier_L3.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Econométrie des données de panel",
+      "categorie": "modelisation",
+      "description":" Analyse des déterminants des émissions de CO2 dans le monde de 1990 à 2020",
+      "fichier": "Dossier_panel.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Arbre de décision",
+      "categorie": "modelisation",
+      "fichier": "Dossier_arbre.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "SVM et réseaux de neuronnes",
+      "categorie": "modelisation",
+      "synthese": "Synthese_neurone.pdf",
+      "lien_code": null
+    },
+    {
+      "titre": "Dash Python  - Tableau de bord interactif",
+      "description": "Un tableau de bord interactif construit avec Python Dash pour explorer les données de vente d'un magasin.",
+      "categorie": "visualisation",
+      "lien": "https://app-dash-4.onrender.com/"
+    },
+    {
+    "titre": "Analyse des Ventes - Power BI",
+    "description": "Un tableau de bord interactif construit avec Power BI pour explorer les données de ventes d’un magasin. Utilisation du langage DAX pour les mesures et indicateurs clés.",
+    "categorie": "visualisation",
+    "fichier": "Power_BI.pdf",
+    "lien_code": null
+  },
+  {
+    "titre": "Application R Shiny - Application Interactive sur l'analyse de données",
+    "description": "Une application interactive développée avec R Shiny pour visualiser et explorer des données.",
+    "categorie": "visualisation",
+    "lien": "https://lilouonno.shinyapps.io/pshiny/"
+  },
+  {
+    "titre": "Econométrie spacial",
+    "description": "Une analyse approfondie a été réalisée pour comprendre les facteurs influençant le taux d’inscription sur les listes électorales en France, en examinant des variables démographiques et socio-économiques au niveau départemental.",
+    "categorie": "Cartographie",
+    "fichier": "Dossier_spatial.pdf",
+    "lien_code": null
+  }
+  
+
+
+]
+  
