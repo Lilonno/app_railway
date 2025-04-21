@@ -1,5 +1,6 @@
 from flask import Flask, render_template, jsonify
 import json
+import os
 
 app = Flask(__name__)
 
@@ -17,8 +18,12 @@ def projets():
 def contact():
     return render_template('contact.html')
 
+
+
+import os
+
+render_port = int(os.environ.get('PORT', 5000))
+
 if __name__ == '__main__':
-    app.run(debug=True)
-
-
+    app.run(host='0.0.0.0', port=render_port, debug=True)
 
