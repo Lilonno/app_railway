@@ -23,6 +23,14 @@
       "lien_code": null
     },
     {
+      "titre": "Importations de pétrole et de produits pétroliers aux USA",
+      "description": "Série temporelle multivariés ",
+      "categorie": "finance",
+      "fichier": "Dossier_serie_multi.pdf",
+      "diaporama": "Diapo_serie_multi.pdf",
+      "lien_code": null
+    }, 
+    {
       "titre": "Site Web - Concours Drim game",
       "description": "Analyser les relations entre la défaillance d’entreprises de taille différente au sein d’un même secteur industriel et déterminer dans quelle mesure ces relations sont dépendantes ou non de la conjoncture et du niveau d’émission de GES des différents secteurs.",
       "categorie": "finance",
@@ -47,14 +55,6 @@
       "description": "Technique de prévision et conjoncture",
       "categorie": "finance",
       "fichier": "Dossier_tech_conjoncture.pdf",
-      "lien_code": null
-    }, 
-    {
-      "titre": "Importations de pétrole et de produits pétroliers aux USA",
-      "description": "Série temporelle multivariés ",
-      "categorie": "finance",
-      "fichier": "Dossier_serie_multi.pdf",
-      "diaporama": "Diapo_serie_multi.pdf",
       "lien_code": null
     }, 
     {
